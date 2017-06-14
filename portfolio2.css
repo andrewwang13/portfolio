@@ -1,0 +1,98 @@
+body {
+	width:1350px;
+	/*border: 2px dashed red;*/
+}
+
+h1 {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+h2 {
+	font-family: sans-serif;
+/*	letter-spacing: 3px;
+*/	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+
+p {
+	font-family: helvetica;
+	font-size: 12px;
+	width: 33%;
+	text-align:justify;
+
+}
+
+/*img {
+	 width:95%; 
+}*/
+
+.logo {
+	width:200px;
+	height:373px;
+	float:left;
+	margin-right:5px;
+}
+
+
+
+.tile {
+	float:left;
+	margin-right: 5px;
+	height:378px;
+	position:relative;
+}
+
+.tile_photo {
+	height: 373px;
+
+}
+
+.tile_photo_constrain {
+	width:516px;
+	height:373px;
+}
+
+/*.verticle_tile_photo {
+	width:247px;
+	margin-left: 5px;
+}*/
+
+.tile_label {
+	font-family: sans-serif;
+	font-size: 24px;
+	color:white;
+	font-weight: bold;
+	position:absolute;
+	left:20px;
+	top:20px;
+}
+
+.caption {
+	font-family: helvetica;
+	font-size: 9px;
+	color:gray;
+	letter-spacing: 2px;
+	line-height: 6px;
+}
+
+.bold_text {
+	font-weight:bold;
+}
+
+.bold_lead {
+	font-family: georgia;
+	font-weight: bold;
+	color:gray;
+	/*letter-spacing: 2px;
+	font-size: 20px;*/
+}
+
+.about_container {
+	position:absolute;
+	top:750px;
+}
+
+
