@@ -48,7 +48,8 @@ p {
 .tile_stack_unit {
 	float:left;
 	position:relative;
-	width:282.25px;
+	width:277.25px;
+	margin-bottom:5px;
 }
 
 .tile_stack_photo {
