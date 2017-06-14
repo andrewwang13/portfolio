@@ -21,7 +21,7 @@ h2 {
 p {
 	font-family: helvetica;
 	font-size: 12px;
-	width: 33%;
+	width: 25%;
 	text-align:justify;
 
 }
@@ -112,6 +112,7 @@ p {
 .about_container {
 	position:absolute;
 	top:750px;
+	margin-top:15px;
 }
 
 
