@@ -299,39 +299,43 @@ p {
 }
 
 .left_nav {
-	width:425px;
-	height:700px;
+	width:400px;
+	height:635px;
 	/*border:1px solid red;*/
 	position:absolute;
 	left:0px;
 	top:0px;
+	opacity:.2;
 }
 
 .right_nav {
-	width:425px;
-	height:700px;
-/*	border:1px solid red;*/
+	width:400px;
+	height:635px;
+	/*border:1px solid red;*/
 	position:absolute;
 	right:0px;
 	top:0px;
+	opacity:.2;
 }
 
-/*.left_arrow {
+.left_arrow {
 	font-family:helvetica;
 	font-size:18px;
-	margin-right:10px;
-	float:left;
-	color:gray;
-
+	font-weight:bold;
+	color:white;
+	position:absolute;
+	top:525px;
+	left:10px;
+	/*text-outline: 1px gray;*/
 }
 
 .right_arrow {
 	font-family:helvetica;
 	font-size:18px;
-	margin-left:10px;
-	float:left;
-	color:gray;
-
-}*/
-
-
+	font-weight:bold;
+	color:white;
+	position:absolute;
+	top:525px;
+	right:10px;
+	/*text-outline: 1px gray;*/
+}

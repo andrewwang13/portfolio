@@ -90,7 +90,19 @@ $(document).ready(function() {
 	  	}  	
 	});
 		
-
+// Nav fadein/fadeout
+$(".left_nav").mouseover(function(){
+	$(".left_nav").fadeTo(150,.8)
+	});
+$(".left_nav").mouseout(function(){
+	$(".left_nav").fadeTo(150,.2)
+	});
+$(".right_nav").mouseover(function(){
+	$(".right_nav").fadeTo(150,.8)
+	});
+$(".right_nav").mouseout(function(){
+	$(".right_nav").fadeTo(150,.2)
+	});
 
  });
 
