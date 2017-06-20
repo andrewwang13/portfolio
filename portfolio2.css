@@ -26,6 +26,14 @@ p {
 
 }
 
+.text_link {
+	color:black;
+	text-decoration: underline;
+}
+
+.text_link:hover {
+	text-decoration: none;
+}
 
 /*img {
 	 width:95%; 
