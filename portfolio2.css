@@ -11,11 +11,12 @@ h1 {
 
 h2 {
 	font-family: sans-serif;
-/*	letter-spacing: 3px;
-*/	font-weight: bold;
+	letter-spacing: -1px;
+	font-weight: bold;
 	text-transform: uppercase;
-	margin-top:10px;
+	margin-top:0px;
 	margin-bottom: 0px;
+	line-height: 20px;
 }
 
 p {
@@ -23,7 +24,6 @@ p {
 	font-size: 12px;
 	width: 280px;
 	text-align:justify;
-
 }
 
 .text_link {
@@ -113,11 +113,6 @@ p {
 	height:373px;
 }
 
-/*.verticle_tile_photo {
-	width:247px;
-	margin-left: 5px;
-}*/
-
 .tile_label {
 	font-family: sans-serif;
 	font-size: 24px;
@@ -152,9 +147,17 @@ p {
 
 .about_container {
 	position:absolute;
+	right:100px;
 	top:750px;
 	margin-top:15px;
 	width:650px;
+}
+
+.about_text {
+	width:195px;
+}
+.about_img {
+	width:280px;
 }
 
 .image_1 {
@@ -275,8 +278,6 @@ p {
 	width:205px;
 	float:left;
 	/*height:1500px;*/
-
-
 }
 
 .nav {
